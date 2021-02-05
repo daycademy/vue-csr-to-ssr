@@ -1,0 +1,44 @@
+{
+  "name": "csr-to-ssr",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "yarn build && node server.js",
+    "build": "yarn build:client && yarn build:server",
+    "build:client": "webpack --config build/webpack.client.js --progress",
+    "build:server": "webpack --config build/webpack.server.js --progress"
+  },
+  "dependencies": {
+    "core-js": "^3.6.5",
+    "express": "^4.17.1",
+    "vue": "^2.6.11",
+    "vue-router": "^3.2.0",
+    "vue-server-renderer": "^2.6.12",
+    "vuex": "^3.4.0"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/eslint-config-airbnb": "^5.0.2",
+    "babel-core": "^6.26.3",
+    "babel-eslint": "^10.1.0",
+    "babel-loader": "^8.2.2",
+    "css-loader": "0.28.9",
+    "eslint": "^6.7.2",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-vue": "^6.2.2",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "file-loader": "^6.2.0",
+    "url-loader": "^4.1.1",
+    "vue-loader": "14.1.1",
+    "vue-style-loader": "^4.1.2",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "3.11.0",
+    "webpack-cli": "3.3.2",
+    "webpack-merge": "5.7.3",
+    "webpack-node-externals": "2.5.2"
+  }
+}
