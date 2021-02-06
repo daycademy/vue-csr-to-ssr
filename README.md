@@ -1,24 +1,7 @@
-# csr-to-ssr
+# CSR to SSR
 
-## Project setup
-```
-yarn install
-```
+This is the official repository of the video series [CSR to SSR in Vue.js 2](https://www.youtube.com/playlist?list=PL10piHcP2kVIf4bsqIpGX9MQUy808MANt)
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+This repository includes different branches of all three episodes.
 
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+With the help of this mini course you can easily upgrade your Client Side Rendering Application to a fully functional Vue.js 2 Server Side Rendering Application.
