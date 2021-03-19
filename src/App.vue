@@ -2,6 +2,7 @@
   <div id="app">
     <p>{{ names }} | {{ $store.state.counter }}</p>
     <button @click="addName">Add name</button>
+    <img src="./assets/logo.png">
     <router-link to="about">About</router-link>
     <router-view></router-view>
   </div>
